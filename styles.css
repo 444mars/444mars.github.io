@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background: #001220;
+}
+
+.wrapper {
+  margin-top: 100px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 10px;
+}
+
+.name {
+  font-size: 2.3em;
+  line-height: 1.3;
+  font-weight: "bold";
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  z-index: 10;
+}
+
+.desc {
+  font-size: 1em;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  z-index: 10;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+}
+
+.resume {
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 700;
+  background: white;
+  padding: 8px 25px;
+  text-decoration: none;
+  color: #111;
+  border-radius: 7px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  transform: scale(0.8);
+  z-index: 10;
+}
+
+.resume:hover {
+  letter-spacing: 6px;
+}
+
+.social {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  display: inline-block;
+  margin-right: 5px;
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+
+.social li a:hover {
+  transform: scale(0.5) translateY(-15px);
+}
+
+.spacer {
+  z-index: 1;
+  aspect-ratio: 900 / 500;
+  width: 100%;
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+.wavess {
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  background-image: url("./waves6.svg");
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background: #001220;
+  }
+
+  .wrapper {
+    margin-top: 0;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    padding: 100px 20vh;
+  }
+
+  .name {
+    font-size: 5em;
+    line-height: 1.3;
+    font-weight: "bold";
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    z-index: 10;
+  }
+
+  .desc {
+    font-size: 1.5em;
+    font-weight: "bold";
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    z-index: 10;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .resume {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 700;
+    background: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    color: #111;
+    border-radius: 7px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    transform: scale(0.8);
+    z-index: 10;
+  }
+
+  .resume:hover {
+    letter-spacing: 6px;
+  }
+
+  .social {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social li {
+    list-style: none;
+  }
+
+  .social li a {
+    display: inline-block;
+    margin-right: 5px;
+    transform: scale(0.8);
+    transition: 0.5s;
+  }
+
+  .social li a:hover {
+    transform: scale(0.5) translateY(-15px);
+  }
+    
+  }
+
+  .spacer {
+    z-index: 1;
+    aspect-ratio: 900 / 180;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 0px;
+    overflow: hidden;
+  }
+
+  .wavess {
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    background-image: url("./waves.svg");
+  }
+}

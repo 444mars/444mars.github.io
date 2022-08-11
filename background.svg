@@ -1,0 +1,20 @@
+<svg id="background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1925.5" height="1080" viewBox="0 0 1925.5 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#de850b" stop-opacity="0"/>
+      <stop offset="0" stop-color="#11a4bf" stop-opacity="0.886"/>
+      <stop offset="1" stop-color="#0000eb" stop-opacity="0.878"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2e982"/>
+      <stop offset="0.64" stop-color="#edb606" stop-opacity="0.941"/>
+      <stop offset="1" stop-color="#e4b009" stop-opacity="0.914"/>
+      <stop offset="1" stop-color="#af8000"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(5.5 1.258)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+    <rect width="1920" height="1077.484" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1919" height="1076.484" fill="none"/>
+  </g>
+  <path id="YELLOW" d="M0,1077.484H1925.5v-1080S552.086,64.843,934.508,497.125,0,1077.484,0,1077.484Z" transform="translate(0 2.516)" fill="url(#linear-gradient-2)"/>
+</svg>
